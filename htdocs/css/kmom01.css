@@ -14,3 +14,277 @@
 .rm-navbar-max {
     display: none;
 }
+
+html {
+    background-color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f9f8f2;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+.site-logo {
+    display: none;
+}
+
+.site-logo-text-icon {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.site-logo-text a {
+    text-decoration: none;
+    font-size: 1.5em;
+    color: #333;
+}
+
+.inner-wrap {
+    max-width: 800px;
+    background-color: #f9f8f2;
+    margin: 0 auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+.wrap-sidebar {
+    display: inline;
+    float: right;
+    width: 200px;
+}
+
+.wrap-sidebar ul {
+    margin: 0;
+    padding: 5px;
+    list-style-type: none;
+}
+
+.breadcrumb-list ul {
+    margin: 0 0 20px 0;
+    padding: 0;
+}
+
+.next-previous {
+    position: relative;
+    height: 20px;
+}
+
+.next {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.previous {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.wrap-sidebar h4 {
+    border-radius: 5px;
+    background-image: linear-gradient(to left, rgba(255,0,0,0), rgba(20,20,20,1));
+    color: white;
+    padding-top: 3px;
+    padding-left: 5px;
+    padding-bottom: 2px;
+}
+
+.wrap-sidebar p {
+    line-height: 1.2em;
+    font-size: 1em;
+}
+
+
+.wrap-sidebar .block a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+.breadcrumb-list li {
+    display: inline;
+}
+
+.breadcrumb-list a {
+    text-decoration: none;
+    color: #ccc;
+}
+
+
+.outer-wrap-main {
+    overflow: auto;
+}
+
+.region-main .figure {
+    float: right;
+    margin-left: 20px;
+}
+.figure figcaption {
+    text-align: center;
+    font-size: 0.8em;
+    font-style: italic;
+}
+
+.region-flash {
+    text-align: center;
+}
+
+.region-header {
+    box-sizing: border-box;
+    overflow: auto;
+}
+
+.region-header-col-1 {
+    display: inline;
+    float: left;
+    width: 150px;
+}
+
+.region-header-col-2 {
+    display: inline;
+    float: left;
+    width: calc(100% - 200px);;
+}
+
+/*navbar*/
+
+.my-navbar {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+.my-navbar a {
+    height: 100%;
+    text-decoration: none;
+    padding: 5px 0 10px;
+}
+
+.my-navbar li {
+    display: inline;
+}
+
+.outer-wrap-footer {
+    background-color: #333;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 40px;
+}
+
+.inner-wrap-footer {
+    background-color: #333;
+}
+
+.footer-column {
+    display: inline-block;
+    width: 32%;
+    color: white;
+}
+
+.footer-column-x {
+    padding: 10px;
+}
+
+.footer-column h4 {
+    color: white;
+}
+
+.footer-column p {
+    color: white;
+    font-size: 1em;
+    line-height: 1.5em;
+}
+
+.site-footer p {
+    text-align: center;
+    color: white;
+    font-size: 1em;
+    line-height: 1.5em;
+}
+
+
+
+
+/* Typgrafi */
+
+h1 {
+    color: #333;
+    font-family: Helvetica;
+    font-weight: bold;
+    letter-spacing: -2px;
+    font-size: 50px;
+    margin: 1.3em 0 1em;
+}
+
+h2 {
+    color: #333;
+    font-family: Helvetica;
+    font-weight: bold;
+    line-height: 1.3em;
+    letter-spacing: 0;
+    font-size: 1.6em;
+    margin-top: 2em;
+}
+
+h3 {
+    color: #333;
+    font-family: Helvetica;
+    font-weight: bold;
+    line-height: 1.3em;
+    letter-spacing: 0;
+    font-size: 1.1em;
+    margin-top: 2em;
+}
+
+h4 {
+    color: #333;
+    font-family: Helvetica;
+    font-weight: bold;
+    line-height: 1.3em;
+    letter-spacing: 0;
+    font-size: 1em;
+    margin-top: 2em;
+}
+
+p {
+    color: #333;
+    font-family: sans-serif;
+    font-size: 1.2em;
+    line-height: 2em;
+    margin: 0 0 28px;
+}
+
+a {
+    color: #ee492e;
+    font-family: sans-serif;
+    text-decoration: underline;
+}
+
+/* byline style */
+
+.author-byline {
+    border: 1px solid #ccc;
+    padding: 20px;
+    display: block;
+    width: calc(100% - 40px);
+    overflow: auto;
+    margin-bottom: 20px;
+}
+
+.author-byline p {
+    font-size: 1em;
+    line-height: 1.5em;
+}
+
+.author-byline .figure {
+    float: right;
+    margin-right: 0.5em;
+}

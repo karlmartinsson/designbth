@@ -1,28 +1,28 @@
 ---
 views:
     kursrepo:
-        region: sidebar-right
+        region: sidebar-left
         template: anax/v2/block/default
         data:
-            meta: 
+            meta:
                 type: single
                 route: block/om-kursrepo
 
     redovisa:
-        region: sidebar-right
+        region: sidebar-left
         template: anax/v2/block/default
         data:
-            meta: 
+            meta:
                 type: single
                 route: block/om-redovisa
 ---
-Om
+Om designkursen
 =========================
 
-Detta innehåll är skrivet i markdown och du hittar innehållet i filen `content/om.md`.
+[FIGURE src=image/coding.jpg?w=300 caption="Lite kod."]
 
-Skriv några kloka ord om kursen?
+Den här sidan hör till kursen Design på Blekinge tekniska högskola.
 
-Lägg till en representativ bild för kursen, enligt ditt egna val.
+Här ska vi fördjupa oss i css och hur man bygger upp en webbsida på ett snyggt sätt.
 
-[FIGURE src=image/car.png?w=300 caption="En fin bil som demobild."]
+Till vår hjälp har vi ramverket Anax.

@@ -1,25 +1,15 @@
 ---
-title: "Min fina titel"
+title: "Karls me-sida"
 ---
-Min me-sida i kursen design
-=========================
+Karls me-sida
+=============
 
-Detta innehåll är skrivet i markdown och du hittar innehållet i filen `content/index.md`.
+Jag heter Karl Martinsson och det här är min Me-sida för kursen htmlphp på Blekinge tekniska högskola. Jag är ursprungligen från Göteborg, men bor sedan sju år tillbaka i Stockholm, just nu i Fruängen en bit söder om stan.
 
-[FIGURE src="image/me.jpg?w=500" class="right" caption="Bild på mig"]
+[FIGURE src="image/karl.jpg?w=250" class="right"]
 
-Detta är min me-sida i kursen. Denna sidan innehåller en presentation av mig själv. Underhåll denna sidan under hela kursen och uppdatera den efter hand och behov.
+Till vardags arbetar jag som journalist på [tidningen Arbetet](https://www.arbetet.se), en nyhetstidning om arbetsmarknadsfrågor och arbetsmarknadspolitik.
 
-Så, en presentation en bra början. Skriv några ord om dig själv. Jag börjar.
+Där sysslar jag mest med så kallad [datajournalistik](https://sv.wikipedia.org/wiki/Datajournalistik), alltså att analysera siffror statistik och annan data för att sedan försöka göra spännande berättelser eller avslöjanden av det hela.
 
-Mitt namn är Mikael Roos. Född och uppvuxen i Bankeryd, Småland, strax utanför Jönköping, i ett villaområde som byggdes upp samtidigt som vi flyttade in där. Jag gillade landhockey och har spelat bandy och hockey samt gått bowlinggymnasiet i Nässjö. Jag har varit städare, diskare, kallskänka, servitör och kock. På ett bananskal landade jag i Ronneby när jag började högskolan 1990 där och nu är jag kvar med fru, barn och så vidare.
-
-Programmering har alltid intresserat mig sedan 13-årsåldern och min första dator var en Spectravideo 328 med bandspelare.
-
-Om jag skall nämna någon hobby, förutom webbprogrammering, så får det bli att bära sten på sommarstugetomten, och det finns sten så det räcker och blir över.
-
-Till och från får jag för mig att börja på lite hobbies, ett år satsade jag på pokerspel, ett annat år var det geocaching och sedan turfing. Nu ligger jag lågt med hobbies, men något kanske dyker upp...?
-
-Vi syns och hörs i forum och chatt!
-
-/Mikael
+När jag inte jobbar spelar jag musik (piano och saxofon) tittar på fotboll ([Gais](http://www.gais.se/)), lagar mat eller latar mig i soffan där hemma.
