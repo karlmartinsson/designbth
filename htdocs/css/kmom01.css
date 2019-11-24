@@ -46,7 +46,7 @@ img {
     color: #333;
 }
 
-.inner-wrap {
+.inner-wrap-main {
     max-width: 800px;
     background-color: #f9f8f2;
     margin: 0 auto;
@@ -70,6 +70,10 @@ img {
 .breadcrumb-list ul {
     margin: 0 0 20px 0;
     padding: 0;
+}
+
+.breadcrumb-list li::after, .bullet-list li::after {
+    content: " » ";
 }
 
 .next-previous {
@@ -114,8 +118,9 @@ img {
 }
 
 .breadcrumb-list a {
+    font-size: 1em;
     text-decoration: none;
-    color: #ccc;
+    color: #333;
 }
 
 
@@ -209,7 +214,6 @@ img {
     font-size: 1em;
     line-height: 1.5em;
 }
-
 
 
 
