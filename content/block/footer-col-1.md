@@ -1,3 +1,3 @@
-#### Footer col 1
+#### Läs mer
 
-Med brödtext i ett stycke som säger något trevligt om just detta block, eller kanske en lista av länkar.
+Läs mer om vad webbdesign egentligen är på [Wikipedia](https://sv.wikipedia.org/wiki/Webbdesign) eller [sök på Google](https://www.google.com/search?q=webbdesign)

@@ -1,0 +1,92 @@
+/*!
+ * LESS version of the stylesheet for design 04_colorful.
+ */
+
+/**
+ * Internal self contained modules, save in directory module/.
+ */
+@import "normalize.css/normalize.less";
+
+//@import "module/kmom01.less";
+@import "module/stylechooser.less";  // Just an example module
+@import "@fortawesome/fontawesome-free/less/fontawesome.less";
+@import "@fortawesome/fontawesome-free/less/solid.less";
+@import "@fortawesome/fontawesome-free/less/brands.less";
+@import "@desinax/responsive-menu/less/style.less";
+@import "@desinax/typographic-grid/less/typography-font-families.less";
+@import "@desinax/typographic-grid/less/typography-defaults.less";
+
+
+
+/**
+ * Base style to affect HTML elements on a general scale.
+ */
+@import "layout/colors_colorful.less";
+@import "base/base04.less";
+
+
+/**
+ * Layout style for general structure of header, navbar, main, footer
+ * and other regions of the page including route specific styles.
+ */
+
+@import "layout/hgrid04.less";
+@import "layout/vgrid.less";
+
+
+//@import "layout/layout03.less";
+
+@import "layout/responsive03.less";
+
+
+// .region-flash {
+//     display: none;
+// }
+
+.region-flash {
+    position: relative;
+    line-height: 0;
+
+    img {
+        -webkit-filter: grayscale(100%);
+        filter: grayscale(100%) brightness(130%);
+        opacity: 0.5;
+    }
+}
+
+.inner-wrap {
+    #desinax-vgrid.grid(800px);
+}
+
+.inner-wrap-header {
+    #desinax-vgrid.grid(100%);
+    background-color: @secondBgColor;
+}
+
+.inner-wrap-flash {
+    #desinax-vgrid.grid(100%);
+}
+
+.outer-wrap-flash {
+    padding: 0;
+}
+
+
+h1 {
+    letter-spacing: 0px;
+}
+
+.footer-column a {
+    color: #44318d;
+}
+
+.rm-desktop {
+    ul {
+        background-color: @secondBgColor;
+    }
+}
+
+
+/**
+ * My own settings, not currently in their own module.
+ */

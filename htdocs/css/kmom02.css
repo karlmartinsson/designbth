@@ -5263,7 +5263,7 @@ a {
     padding-bottom: 0;
   }
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1040px) {
   .region-header-col-2 {
     display: none;
   }
