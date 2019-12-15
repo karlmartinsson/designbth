@@ -4821,7 +4821,7 @@ a.rm-button.rm-clicked .rm-button-face-2 {
  * Menu layout for the desktop variant, usually full width of browser.
  */
 .rm-desktop ul {
-  background-color: #f9f8f2;
+  background-color: inherit;
 }
 .rm-desktop li {
   position: relative;
@@ -4835,8 +4835,8 @@ a.rm-button.rm-clicked .rm-button-face-2 {
   background-color: inherit;
 }
 .rm-desktop li a:hover {
-  color: white;
-  background-color: #333;
+  color: inherit;
+  background-color: inherit;
 }
 .rm-desktop li:hover > ul {
   left: 0;
@@ -4854,7 +4854,7 @@ a.rm-button.rm-clicked .rm-button-face-2 {
 .rm-mobile {
   width: 100%;
   box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.4);
-  background-color: #fff;
+  background-color: #444;
   color: #fff;
 }
 .rm-mobile a {

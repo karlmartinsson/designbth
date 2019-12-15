@@ -26,7 +26,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam nec turpis nulla. C
 
 Ut eu enim felis. Maecenas nunc felis, varius eu venenatis a, elementum ut metus. Nulla ultricies, nulla eu interdum pretium, mauris neque sagittis urna, eget vulputate metus velit eu orci. Vivamus non justo suscipit sem dictum elementum id id urna. Phasellus sit amet ullamcorper nunc, vitae porta felis. Duis a mi dolor. Donec finibus ullamcorper vulputate.
 
-[FIGURE src=image/coding.jpg?w=300 caption="En bild."]
+[FIGURE src=image/coding.jpg?width=300 class="right w50" caption="En bild."]
 
 Praesent at semper ante. Ut ullamcorper ex vel felis vulputate dictum. Proin suscipit et nunc in fringilla. Curabitur et nulla viverra risus viverra facilisis nec suscipit nibh. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque iaculis orci id nisl iaculis, vitae tempor est molestie. Duis aliquet auctor mauris non convallis. Donec et urna condimentum, rhoncus nibh quis, ultrices turpis. Donec blandit urna nec varius rhoncus. Nunc justo mi, viverra sed egestas a, sagittis sed libero. Cras eu consequat diam. Donec bibendum ante vel urna sodales condimentum. Praesent sed diam mauris. Cras faucibus felis quis odio lobortis, quis suscipit arcu ultricies. Phasellus sagittis, elit id rutrum pretium, ligula velit accumsan augue, vitae consectetur massa nulla vel dolor.
 

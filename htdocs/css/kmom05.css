@@ -1,5 +1,5 @@
 /*!
- * LESS version of the stylesheet for design 04_minimalistic.
+ * LESS version of the stylesheet for design kmom05.
  */
 /**
  * Internal self contained modules, save in directory module/.
@@ -5011,11 +5011,14 @@ a.rm-button.rm-clicked .rm-button-face-2 {
 /**
  * Base style to affect HTML elements on a general scale.
  */
+h1 a {
+  color: lightGray;
+}
 /**
  * Base style to affect HTML elements on a general scale.
  */
 html {
-  background-color: #fffff;
+  background-color: #333;
 }
 .site-logo {
   display: none;
@@ -5024,7 +5027,7 @@ img {
   max-width: 100%;
 }
 a {
-  color: #699c17;
+  color: #d83f87;
   text-decoration: none;
 }
 /**
@@ -5032,8 +5035,8 @@ a {
  * and other regions of the page including route specific styles.
  */
 body {
-  font: 18px/1.33333333 Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", Georgia, "Times New Roman", Times, serif;
-  color: #333;
+  font: 16px/1.5 Verdana, Geneva, sans-serif;
+  color: lightGray;
 }
 h1,
 h2,
@@ -5055,7 +5058,7 @@ h6 img {
 }
 h1 {
   font-size: 3em;
-  line-height: 1.33333333;
+  line-height: 1;
   font-weight: normal;
   border-bottom: 0px solid #666;
   margin-bottom: 24px;
@@ -5073,7 +5076,7 @@ h1 + h2 {
 }
 h2 {
   font-size: 1.4em;
-  line-height: 1.9047619;
+  line-height: 1.07142857;
   font-weight: normal;
   margin-bottom: 24px;
   border-bottom: 0px solid #CCC;
@@ -5083,7 +5086,7 @@ h2 + h3 {
 }
 h3 {
   font-size: 1.3em;
-  line-height: 1.02564103;
+  line-height: 1.15384615;
   font-weight: normal;
   margin-bottom: 24px;
   border-bottom: 0px solid #EEE;
@@ -5093,7 +5096,7 @@ h3 + h4 {
 }
 h4 {
   font-size: 1.2em;
-  line-height: 1.11111111;
+  line-height: 1.25;
   font-weight: normal;
   margin-bottom: 24px;
   border-bottom: 0px solid #EEE;
@@ -5103,7 +5106,7 @@ h4 + h5 {
 }
 h5 {
   font-size: 1.25em;
-  line-height: 1.06666667;
+  line-height: 1.2;
   margin-bottom: 24px;
   border-bottom: 0px solid #EEE;
 }
@@ -5112,7 +5115,7 @@ h5 + h6 {
 }
 h6 {
   font-size: 1.25em;
-  line-height: 1.06666667;
+  line-height: 1.2;
   margin-bottom: 24px;
   border-bottom: 0px solid #EEE;
 }
@@ -5262,7 +5265,7 @@ article table caption,
 .table caption,
 .table2 caption {
   font-size: 0.875em;
-  line-height: 1.52380952;
+  line-height: 1.71428571;
   text-align: left;
   font-style: italic;
 }
@@ -5327,7 +5330,7 @@ h2,
 h3,
 h4 {
   font-weight: bold;
-  color: #333;
+  color: lightGray;
 }
 h1 {
   letter-spacing: -2px;
@@ -5400,7 +5403,7 @@ h4 {
   max-width: 100%;
 }
 .footer-column {
-  color: #333;
+  color: lightGray;
   display: inline;
   float: left;
   width: 32.29166667%;
@@ -5460,13 +5463,13 @@ h4 {
   margin-right: 0.52083333%;
 }
 .outer-wrap-footer {
-  background-color: #F0F0F0;
+  background-color: #000000;
 }
 .outer-wrap-footer .row {
   margin-bottom: 0;
 }
 .site-footer {
-  color: #333;
+  color: lightGray;
   display: inline;
   float: left;
   width: 98.95833333%;
@@ -5515,19 +5518,19 @@ h4 {
 .site-logo-text a {
   text-decoration: none;
   font-size: 1.5em;
-  color: #333;
+  color: lightGray;
 }
 .breadcrumb-list ul {
   margin-top: 0;
   text-align: right;
-  color: #699c17;
+  color: #d83f87;
 }
 .breadcrumb-list li {
   display: inline;
 }
 .breadcrumb-list a {
   text-decoration: none;
-  color: #699c17;
+  color: #d83f87;
 }
 .breadcrumb-list li::after,
 .bullet-list li::after {
@@ -5541,8 +5544,8 @@ h4 {
 .wrap-sidebar .block {
   padding-left: 24px;
   border-left: solid 2px;
-  border-color: #333;
-  color: #333;
+  border-color: lightGray;
+  color: lightGray;
   margin-bottom: calc(24px * 2);
 }
 .wrap-sidebar .block ul {
@@ -5551,41 +5554,14 @@ h4 {
   list-style-type: none;
 }
 .wrap-sidebar .block h4 {
-  color: #333;
+  color: lightGray;
 }
 .wrap-sidebar .block p:last-child {
   margin-bottom: 0;
 }
-.article .figure {
-  float: right;
-  margin-left: 24px;
-  margin-right: 0;
-  margin-top: 0;
-  margin-bottom: 0;
-}
-.article .figure img {
-  height: calc(24px * 10);
-}
-.article .figure a {
-  font-size: 0;
-  margin: 0;
-  text-decoration: none;
-}
-.article .figure figcaption {
-  margin-top: 0;
-  text-align: center;
-  font-size: 0.8em;
-  font-style: italic;
-}
-.article .figure figcaption p {
-  margin-top: 0;
-}
-.article .figure.big img {
-  height: calc(24px * 15);
-}
 .author-byline {
   border-top: solid 2px;
-  border-color: #333;
+  border-color: lightGray;
   margin-top: calc(24px * 2);
   padding-top: calc(24px - 2px);
   width: 100%;
@@ -5610,21 +5586,134 @@ h4 {
   width: 100%;
 }
 /**
+ * Figure with ASCIINEMA
+ */
+/**
+ * Figure with Codepen
+ */
+/** --------------------------------------------------------------
+ * Figure through .figure
+ */
+figure.figure,
+figure.asciinema,
+figure.codepen,
+figure.figure-codepen {
+  display: table;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 24px;
+  /* Chrome shinks images in td */
+  /* Position the images */
+}
+figure.figure img {
+  max-width: 100%;
+  display: block;
+}
+figure.figure figcaption {
+  display: table-caption;
+  caption-side: bottom;
+  padding-top: 12px;
+}
+figure.figure figcaption p {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-style: italic;
+}
+figure.figure td img {
+  max-width: none;
+}
+figure.figure.center {
+  clear: both;
+  margin: auto;
+}
+figure.figure.center figcaption {
+  text-align: center;
+}
+figure.figure.left {
+  float: left;
+  margin-right: 0.5em;
+}
+figure.figure.right {
+  float: right;
+  margin-left: 0.5em;
+}
+@media screen and (max-width: 700px) {
+  figure.figure.left.w67,
+  figure.figure.right.w67 {
+    margin-left: 0;
+    margin-right: 0;
+    float: none;
+  }
+  figure.figure.left.w67 img,
+  figure.figure.right.w67 img {
+    width: 700px;
+  }
+}
+@media screen and (max-width: 533px) {
+  figure.figure.left.w50,
+  figure.figure.right.w50 {
+    margin-left: 0;
+    margin-right: 0;
+    float: none;
+  }
+  figure.figure.left.w50 img,
+  figure.figure.right.w50 img {
+    width: 533.33333333px;
+  }
+}
+@media screen and (max-width: 500px) {
+  figure.figure.left.w40,
+  figure.figure.right.w40 {
+    margin-left: 0;
+    margin-right: 0;
+    float: none;
+  }
+  figure.figure.left.w40 img,
+  figure.figure.right.w40 img {
+    width: 500px;
+  }
+}
+@media screen and (max-width: 400px) {
+  figure.figure.left.w33,
+  figure.figure.right.w33 {
+    margin-left: 0;
+    margin-right: 0;
+    float: none;
+  }
+  figure.figure.left.w33 img,
+  figure.figure.right.w33 img {
+    width: 400px;
+  }
+}
+@media screen and (max-width: 267px) {
+  figure.figure.left.w25,
+  figure.figure.right.w25 {
+    margin-left: 0;
+    margin-right: 0;
+    float: none;
+  }
+  figure.figure.left.w25 img,
+  figure.figure.right.w25 img {
+    width: 266.66666667px;
+  }
+}
+figure.asciinema {
+  display: block;
+}
+figure.asciinema figcaption {
+  display: block;
+}
+figure.asciinema .asciicast {
+  margin: 0 !important;
+}
+figure.codepen,
+figure.figure-codepen {
+  width: 100%;
+}
+/**
  * Layout for responsive style through media queries.
  */
 @media screen and (max-width: 650px) {
-  .article .figure {
-    width: 100%;
-    margin-top: 24px;
-    margin-bottom: 24px;
-    margin-left: 0;
-    margin-right: 0;
-  }
-  .article .figure img,
-  .article .figure.big img {
-    width: 100%;
-    height: auto;
-  }
   .footer-column {
     display: inline;
     float: left;
@@ -5683,16 +5772,8 @@ h4 {
 }
 .region-flash img {
   -webkit-filter: grayscale(100%);
-  filter: grayscale(100%) brightness(130%);
+  filter: grayscale(100%) brightness(50%);
   opacity: 0.5;
-}
-.figure a {
-  position: relative;
-  line-height: 0;
-}
-.figure a img {
-  -webkit-filter: grayscale(100%);
-  filter: grayscale(100%) brightness(130%);
 }
 .inner-wrap {
   margin-right: auto;
@@ -5703,6 +5784,7 @@ h4 {
   margin-right: auto;
   margin-left: auto;
   max-width: 100%;
+  background-color: #000000;
 }
 .inner-wrap-flash {
   margin-right: auto;
@@ -5712,11 +5794,14 @@ h4 {
 .outer-wrap-flash {
   padding: 0;
 }
-.rm-desktop ul {
-  background-color: #F0F0F0;
-}
 h1 {
   letter-spacing: 0px;
+}
+.rm-desktop ul {
+  background-color: #000000;
+}
+.footer-column {
+  color: lightGray;
 }
 /**
  * My own settings, not currently in their own module.
