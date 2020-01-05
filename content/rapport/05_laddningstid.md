@@ -24,13 +24,6 @@ Jag använder också Google Spreadsheets för att dokumentera mina resultat.
 Resultat
 -----------------------
 
-För varje webbplats, gör följande:
-
-Ta en snapshot (bild) på webbplatsen.
-Välj ut tre sidor (bifoga länkarna) som skall mätas med Google Pagespeed. Mät på både Mobile och Desktop. Notera de betyg som ges.
-För varje sida, mät med devtools flik networks och notera sidans laddningstid tillsammans med antalet resurser som laddas samt sidans totala storlek. För varje sida gör mätningen tre gånger och ta snittet av mätvärdena.
-Diskutera och skriv en mening om hur webbplatsen kan förbättra sig.
-
 ## aftonbladet.se
 
 [FIGURE src=img/aftonbladetladdtid.png class="center big w50" caption="aftonbladet.se"]
